@@ -1,58 +1,58 @@
-# Create applications with the Copilot CLI
+# Criar Aplicações com o Copilot CLI
 
-_Learn to use GitHub Copilot CLI—a standalone terminal application—for issue management and building a Node.js calculator application._
+_Aprenda a usar o GitHub Copilot CLI, uma aplicação standalone de terminal, para gerenciar issues e criar uma aplicação de calculadora em Node.js._
 
-## Welcome
+## Boas-vindas
 
-- **Who is this for**: Developers who want to learn how to use the standalone GitHub Copilot CLI to streamline their development workflow
-- **What you'll learn**: How to install and use GitHub Copilot CLI as a standalone terminal tool for creating issues, generating code, and collaborating interactively from the command line
-- **What you'll build**: A Node.js calculator app using Copilot CLI for project setup, issue management, and collaborative development
-- **Prerequisites**:
-  - Familiarity with basic command line (CLI) operations
-  - Basic knowledge of GitHub repositories
-  - Node.js version 22 or later (for Copilot CLI installation)
-  - A GitHub Copilot subscription (Pro, Pro+, Business, or Enterprise)
+- **Para quem é**: Desenvolvedores que querem aprender a usar a versão standalone do GitHub Copilot CLI para tornar seu fluxo de desenvolvimento mais eficiente
+- **O que você vai aprender**: Como instalar e usar o GitHub Copilot CLI como uma ferramenta standalone de terminal para criar issues, gerar código e colaborar de forma interativa pela linha de comando
+- **O que você vai construir**: Uma aplicação de calculadora em Node.js usando o Copilot CLI para configuração do projeto, gerenciamento de issues e desenvolvimento colaborativo
+- **Pré-requisitos**:
+  - Familiaridade com operações básicas de linha de comando (CLI)
+  - Conhecimento básico sobre repositórios no GitHub
+  - Node.js versão 22 ou superior (para a instalação do Copilot CLI)
+  - Uma assinatura do GitHub Copilot (Pro, Pro+, Business ou Enterprise)
 
-- **How long**: This exercise takes less than 60 minutes to complete.
+- **Duração**: Este exercício leva menos de 60 minutos para ser concluído.
 
-In this exercise, you will:
+Neste exercício, você vai:
 
-1. Learn to install the standalone Copilot CLI and use an issue template
-1. Use Copilot CLI to create an issue for a Node.js calculator app from an existing template
-1. Practice iterative development by working together with Copilot on the command line
+1. Aprender a instalar a versão standalone do Copilot CLI e usar um issue template
+1. Usar o Copilot CLI para criar uma issue para uma aplicação de calculadora em Node.js a partir de um template existente
+1. Praticar desenvolvimento iterativo trabalhando junto com o Copilot pela linha de comando
 
-### What's New in Copilot CLI
+### O que Há de Novo no Copilot CLI
 
-GitHub Copilot CLI is a standalone terminal application with exciting features:
-- **Latest AI models**: Access the newest models from OpenAI and Google
-- **Custom agents**: Create specialized agent personas for your workflows using `.github/agents/`
-- **`/delegate` command**: Delegate tasks to Copilot coding agent which works autonomously
-- **`/share` command**: Save chat sessions as Markdown files or GitHub gists
-- **Better image support**: Add images via paste and drag-and-drop
-- **MCP server support**: Integrate with Model Context Protocol tools
-- **Improved reliability**: Better handling of long-running commands and enhanced automation with headless `-p` mode
+O GitHub Copilot CLI é uma aplicação standalone de terminal com recursos relevantes:
+- **Latest AI models**: Acesse os modelos mais recentes da OpenAI e do Google
+- **Custom agents**: Crie perfis de agentes especializados para os seus fluxos de trabalho usando `.github/agents/`
+- **`/delegate` command**: Delegue tarefas ao Copilot coding agent, que trabalha de forma autônoma
+- **`/share` command**: Salve sessões de chat como arquivos Markdown ou GitHub gists
+- **Better image support**: Adicione imagens por colagem ou arrastar e soltar
+- **MCP server support**: Integre ferramentas do Model Context Protocol
+- **Improved reliability**: Conte com um tratamento melhor de comandos de longa duração e com automação aprimorada usando o modo headless `-p`
 
 
-### How to start this exercise
+### Como iniciar este exercício
 
-Simply copy the exercise to your account, then give your favorite Octocat (Mona) **about 20 seconds** to prepare the first lesson, then **refresh the page**.
+Basta copiar o exercício para a sua conta, dar à sua Octocat favorita, a Mona, **cerca de 20 segundos** para preparar a primeira lição e, depois, **atualizar a página**.
 
 [![](https://img.shields.io/badge/Copy%20Exercise-%E2%86%92-1f883d?style=for-the-badge&logo=github&labelColor=197935)](https://github.com/new?template_owner=skills&template_name=create-applications-with-the-copilot-cli&owner=%40me&name=skills-create-applications-with-the-copilot-cli&description=Exercise:+Create+Applications+with+the+Copilot+CLI&visibility=public)
 
 <details>
-<summary>Having trouble? 🤷</summary><br/>
+<summary>Está com problemas? 🤷</summary><br/>
 
-When copying the exercise, we recommend the following settings:
+Ao copiar o exercício, recomendamos as seguintes configurações:
 
-- For owner, choose your personal account or an organization to host the repository.
+- Em `owner`, escolha sua conta pessoal ou uma organização para hospedar o repositório.
 
-- We recommend creating a public repository, since private repositories will use Actions minutes.
+- Recomendamos criar um repositório público, pois repositórios privados consomem minutos do Actions.
 
-If the exercise isn't ready in 20 seconds, please check the [Actions](../../actions) tab.
+Se o exercício não estiver pronto em 20 segundos, verifique a aba [Actions](../../actions).
 
-- Check to see if a job is running. Sometimes it simply takes a bit longer.
+- Verifique se há algum job em execução. Às vezes, o processo apenas demora um pouco mais.
 
-- If the page shows a failed job, please submit an issue. Nice, you found a bug! 🐛
+- Se a página mostrar um job com falha, abra uma issue. Você encontrou um bug.
 
 </details>
 
