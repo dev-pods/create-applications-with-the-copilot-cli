@@ -37,7 +37,7 @@ O GitHub Copilot CLI é uma aplicação standalone de terminal com recursos rele
 
 Basta copiar o exercício para a sua conta, dar à sua Octocat favorita, a Mona, **cerca de 20 segundos** para preparar a primeira lição e, depois, **atualizar a página**.
 
-[![](https://img.shields.io/badge/Copy%20Exercise-%E2%86%92-1f883d?style=for-the-badge&logo=github&labelColor=197935)](https://github.com/new?template_owner=skills&template_name=create-applications-with-the-copilot-cli&owner=%40me&name=skills-create-applications-with-the-copilot-cli&description=Exercise:+Create+Applications+with+the+Copilot+CLI&visibility=public)
+[![](https://img.shields.io/badge/Copy%20Exercise-%E2%86%92-1f883d?style=for-the-badge&logo=github&labelColor=197935)](https://github.com/new?template_owner=dev-pods&template_name=create-applications-with-the-copilot-cli&owner=%40me&name=skills-create-applications-with-the-copilot-cli&description=Exercise:+Create+Applications+with+the+Copilot+CLI&visibility=public)
 
 <details>
 <summary>Está com problemas? 🤷</summary><br/>
